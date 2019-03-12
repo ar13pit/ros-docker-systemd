@@ -9,10 +9,7 @@
 # -------------------------------------------------------------
 
 # Using a custom Ubuntu image (TU/e Robotics) that has ROS installed
-FROM tueroboticsamigo/tue-env:master
-
-# Set default shell to be bash
-SHELL ["/bin/bash", "-c"]
+FROM tuerobotics/tue-env:master
 
 # Make a new catkin_ws, clone the ros-tutorials repository and build the
 # workspace
